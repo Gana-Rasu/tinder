@@ -1,0 +1,48 @@
+
+.tinderContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.person-img{
+    max-width: 80%;
+    max-height: 400px;
+    object-fit: cover;
+    position: relative;
+}
+
+.card{
+    padding: 20px;
+    text-align: center;
+}
+
+.person-name{
+    position: relative;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0.5%;
+}
+
+/* .card{
+    background-color: white;
+    width: 600px;
+    padding: 20px;
+    max-width: 85vw;
+    height: 50vh; 
+     background-position: center;
+    border-radius: 20px;
+  background-size: contain; 
+} */
+/* 
+.person-img{
+    position: relative;
+    width: 600px;
+    padding: 20px;
+    max-width: 85vw;
+    height: 50vh;
+} */
+
+.swiper{
+    position: absolute;
+}
