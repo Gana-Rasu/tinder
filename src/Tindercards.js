@@ -16,7 +16,7 @@ function Tindercards() {
     },
     {
 
-      name: "Thooriga Amar",
+      name: "Angelina cruz",
       url:
         "https://i.imgur.com/OckVkRo.jpeg",
     },
@@ -44,9 +44,14 @@ function Tindercards() {
             className={"swiper"}
             preventSwipe={["up", "down"]}
             contents={
-              <div className="card" >
+              <div className="card" style={{
+                backgroundImage: `url(${person.url})`,
+                backgroundSize: "100% 100%",
+                width: "300px",
+                height: "380px"
+              }} >
                     <span className="person-name" >{person.name}</span>
-                <img className="person-img"  src={person.url} ></img>
+                {/* <img className="person-img"  src={person.url} ></img> */}
             
               </div>
             }

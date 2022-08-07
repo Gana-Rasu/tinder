@@ -3,46 +3,36 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 .person-img{
     max-width: 80%;
     max-height: 400px;
-    object-fit: cover;
+    object-fit: contain;
     position: relative;
+
 }
 
 .card{
     padding: 20px;
-    text-align: center;
+    /* text-align: center; */
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 2%;
+    
 }
 
 .person-name{
-    position: relative;
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0.5%;
+    /* margin: 0.5%; */
 }
 
-/* .card{
-    background-color: white;
-    width: 600px;
-    padding: 20px;
-    max-width: 85vw;
-    height: 50vh; 
-     background-position: center;
-    border-radius: 20px;
-  background-size: contain; 
-} */
-/* 
-.person-img{
-    position: relative;
-    width: 600px;
-    padding: 20px;
-    max-width: 85vw;
-    height: 50vh;
-} */
+
 
 .swiper{
     position: absolute;
+    top:0px;
 }
